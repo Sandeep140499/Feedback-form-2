@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(skyblue,pink,lightblue);
+    padding: 20px;
+}
+
+.feedHeading{
+    color: rgb(144, 26, 26);
+    text-shadow: 2px 3px purple;
+    margin: 40px;
+    font-size: 50px;
+}
+
+.formElem{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.formElem input{
+    background-color: rgb(199, 204, 212);
+    height: 30px;
+    width: 230px;
+    border: 1px solid rgb(150, 47, 47);
+    border-radius: 15px;
+    padding: 2px 10px;
+    color: black);
+    font-size: 18px;
+}
+
+form{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(183, 28, 66);
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    padding: 50px 80px;
+}
+button{
+    margin-top: 35px;
+    padding: 5px 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(142, 183, 155);
+    
+}
+button:hover{
+    cursor: pointer;
+    color: green;
+    
+}
+
+
+.detailsContainer{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 100px;
+    width: 1100px;
+    background-color: rgb(184, 154, 23);
+}
+
+.listChild{
+    display: inline-block;
+    min-width: 400px;
+    background-color: rgb(149, 98, 48);
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 20px 10px;
+    
+}
+
+/*  */
